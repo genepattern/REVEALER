@@ -1,7 +1,7 @@
 #REVEALER
 #Wed Apr 20 17:12:00 EDT 2016
 JVMLevel=
-LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:440\:0.42.2
+LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:440\:0.42.3
 author=Pablo Tamayo;Broad Institute
 categories=Statistical Methods
 commandLine=<R3.0_Rscript> <libdir>/REVEALER_library.v5C.R --ds1\=<ds1> --target.name\=<target.name> --target.match\=<target.match> --ds2\=<ds2> --seed.names\=<seed.names> --max.n.iter\=<max.n.iter> --n.markers\=<n.markers> --locs.table.file\=<locs.table.file>  --count.thres.low\=<count.thres.low> --count.thres.high\=<count.thres.high> --pdf.output.file\=<pdf.output.file>\n
@@ -159,7 +159,7 @@ quality=preproduction
 taskDoc=REVEALER_GP_documentation.v1.pdf
 taskType=Statistical Methods
 userid=tamayo
-version=Added documentation file from Pablo, converted .docx to .pdf
+version=Added r.package.info file, tested on GP@IU, R/3.0.2
 
 #
 # server configuration flags
