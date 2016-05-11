@@ -160,7 +160,7 @@ quality=preproduction
 taskDoc=REVEALER_GP_documentation.v1.pdf
 taskType=Statistical Methods
 userid=tamayo
-version=Adding doc and some job config settings, plus an r.package.info file for portability.
+version=Updated with the latest version of the REVEALER code.
 
 #
 # server configuration flags
@@ -168,7 +168,7 @@ version=Adding doc and some job config settings, plus an r.package.info file for
 job.error_status.stderr=false
 job.error_status.exit_value=true
 job.memory=24 Gb
-# set wall clock limit for the job, in <days-hh:mm:ss> format
-job.walltime=1-00\:00\:00
+# set wall clock limit for the job, in <hh:mm:ss> format
+job.walltime=24\:00\:00
 
 publicationDate=04/29/2016 13\:40 
