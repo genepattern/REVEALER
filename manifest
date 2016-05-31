@@ -1,4 +1,4 @@
-#Fri, 29 Apr 2016 13:40:42 -0400
+#Tue, 31 May 2016 11:02:23 -0400
 #REVEALER
 #Wed Apr 20 17:12:00 EDT 2016
 JVMLevel=
@@ -160,7 +160,7 @@ quality=preproduction
 taskDoc=REVEALER_GP_documentation.v1.pdf
 taskType=Statistical Methods
 userid=tamayo
-version=Updated with the latest version of the REVEALER code.
+version=Include pdf documentation file in module
 
 #
 # server configuration flags
@@ -171,4 +171,4 @@ job.memory=24 Gb
 # set wall clock limit for the job, in <hh:mm:ss> format
 job.walltime=24\:00\:00
 
-publicationDate=04/29/2016 13\:40 
+publicationDate=05/31/2016 11\:02 
