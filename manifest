@@ -40,8 +40,8 @@ p11_type=java.lang.String
 p11_value=
 p1_MODE=IN
 p1_TYPE=FILE
-p1_default_value=http\://www.broadinstitute.org/~tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct
-p1_description=Target profile dataset (e.g.\nhttp\://www.broadinstitute.org/~tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct)\t\n
+p1_default_value=https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct
+p1_description=Target profile dataset (e.g. https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct)
 p1_fileFormat=gct
 p1_flag=
 p1_name=ds1
@@ -79,8 +79,8 @@ p3_type=java.lang.String
 p3_value=
 p4_MODE=IN
 p4_TYPE=FILE
-p4_default_value=http\://www.broadinstitute.org/~tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct
-p4_description=Features Dataset (e.g.http\://www.broadinstitute.org/~tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct)
+p4_default_value=https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct
+p4_description=Features Dataset (e.g. https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct)
 p4_fileFormat=gct
 p4_flag=
 p4_name=ds2
@@ -160,7 +160,7 @@ quality=preproduction
 taskDoc=REVEALER_GP_documentation.v1.pdf
 taskType=Statistical Methods
 userid=tamayo
-version=Include pdf documentation file in module
+version=Renamed example data file links to new broad hosted URL
 
 #
 # server configuration flags

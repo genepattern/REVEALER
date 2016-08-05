@@ -3,14 +3,14 @@ module: REVEALER
 name: REVEALER examle_data_test
 description: Tests REVEALER using example data from the publication and all default param settings.  Note that this is equivalent to simply running the module with all defaults.
 params:
-       ds1: "http://www.broadinstitute.org/~tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct"
+       ds1: "https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CTNBB1_transcriptional_reporter.gct"
        target.name: "BETA-CATENIN-REPORTER"
        target.match: "positive"
-       ds2: "http://www.broadinstitute.org/~tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct"
+       ds2: "https://personal.broadinstitute.org/tamayo/REVEALER/datasets/CCLE_MUT_CNA_AMP_DEL_0.70_2fold.MC.gct"
        seed.names: "CTNNB1.MC_MUT"
        max.n.iter: "2"
        n.markers: "30"
-       locs.table.file: "http://www.broadinstitute.org/~tamayo/REVEALER/datasets/hgnc_complete_set.Feb_20_2014.v2.txt"
+       locs.table.file: "https://personal.broadinstitute.org/tamayo/REVEALER/datasets/hgnc_complete_set.Feb_20_2014.v2.txt"
        count.thres.low: "3"
        count.thres.high: "50"
        pdf.output.file: "BCAT_vs_MUT_CNA.pdf"
