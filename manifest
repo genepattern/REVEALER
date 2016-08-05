@@ -2,7 +2,7 @@
 #REVEALER
 #Wed Apr 20 17:12:00 EDT 2016
 JVMLevel=
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00360\:999999999
+LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00360\:0.53
 author=Pablo Tamayo;Broad Institute
 categories=Statistical Methods
 commandLine=<R3.0_Rscript> <libdir>/REVEALER_library.v5C.R --ds1\=<ds1> --target.name\=<target.name> --target.match\=<target.match> --ds2\=<ds2> --seed.names\=<seed.names> --max.n.iter\=<max.n.iter> --n.markers\=<n.markers> --locs.table.file\=<locs.table.file>  --count.thres.low\=<count.thres.low> --count.thres.high\=<count.thres.high> --pdf.output.file\=<pdf.output.file>\n
